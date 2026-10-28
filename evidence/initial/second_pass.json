@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "independent_sympy_arithmetic_checks": 223,
+  "known_issue_1_excluded": true,
+  "rationale_conclusion_letters_rechecked": 10,
+  "published_contact_source": "https://arxiv.org/pdf/1705.04146",
+  "published_contacts": [
+    "lingwang@google.com",
+    "cdyer@google.com"
+  ]
+}

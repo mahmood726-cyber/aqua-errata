@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_readback": 624,
+    "independent_pair_equations": 63,
+    "independent_scalar_equations": 14,
+    "independent_numeric_equivalence": 57,
+    "brute_force_permutations": 3,
+    "mathematically_solved_showcase_records": 3
+  },
+  "interpretation": "No published model scores recomputed. Alternative-answer correctness checked for the two named held-out examples, not inferred for all keyed-content collisions."
+}

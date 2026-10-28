@@ -1,0 +1,20 @@
+{
+  "screening_indices_excluded": [
+    7,
+    10,
+    24,
+    27,
+    34,
+    38,
+    45,
+    47,
+    72
+  ],
+  "reasons": [
+    "Area words occurred in a question asking for height",
+    "Scalar speed query misread as asking for a different speed",
+    "Items per rupee incorrectly treated as rupees per item",
+    "Repeated numeric-token corruption requires separate adjudication"
+  ],
+  "uncounted_other_risk": "21 held-out question texts also occur in training, with different options; not included in error counts"
+}

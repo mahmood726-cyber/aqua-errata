@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "affected_records": 354,
+  "distinct_exact_question_texts": 304,
+  "record_checks_passed": 354,
+  "source_record_hashes_passed": 354,
+  "evidence_file_hashes_passed": 6,
+  "kinds": {
+    "rationale_arithmetic": 223,
+    "answer_key": 121,
+    "key_or_conclusion_conflict": 10
+  },
+  "controls_passed": 5,
+  "scope": "Arithmetic cases verify the cited rationale equation only; they do not establish a wrong final answer key."
+}

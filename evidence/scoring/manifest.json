@@ -1,0 +1,37 @@
+{
+  "audit_date": "2026-10-28",
+  "commit": "26b64ed1f22208c6742f47df547dfd65088ec30d",
+  "repository": "google-deepmind/AQuA",
+  "new_affected_records": 624,
+  "new_exact_question_texts": 588,
+  "issue_counts": {
+    "identical_keyed_content": 427,
+    "missing_numeric_choices": 60,
+    "missing_requested_pair": 63,
+    "wrong_key_or_missing_option": 17,
+    "equivalent_keyed_value": 57
+  },
+  "prior_affected_records": 403,
+  "cumulative_affected_records": 1027,
+  "prior_aqua_record_count": 354,
+  "source_file_sha256": {
+    "train.json": "35b70c7cb1660c34d302bb932dfd3656ce3d05e8c982c797767fec31d7d1e0ba",
+    "test.json": "de41581881ef95c5588c44ddc701c77fd480839241dd422a0d181262af24520c",
+    "dev.json": "4a52301d8a49ae0b286f8e697f9c5da1b109b247b825b47b4c6de34312dceec5"
+  },
+  "source_git_blob": {
+    "train.json": "a805bddefde8d70fdb66ff7ab85a1999bdc3eece",
+    "test.json": "a62ef3e8bc0446de096c8384a0bf5c99867043b2",
+    "dev.json": "cfed85490f72da6bb4d108e040c510d3e0b22d2a"
+  },
+  "sha256": {
+    "findings.json": "085e06532ce8a387326688201fae4ded3e5842c73d1bb351218cd75fd541348e",
+    "LICENSE-source.txt": "189bff4f09eccdbc1790f7a9085ddd031ddf050f27929608fa4ba8a57e14a7c3",
+    "prior_record_ids.json": "955ec6bc04b191a718ed5581a4f7435d30e18764d24d2e23c6229676588eff02",
+    "reproduce.py": "2469b93005e0f0070493b05529760a0b91c76c42adf1d57807bb97f16c398bf1",
+    "review_exclusions.json": "d42cfeed1d35a1159f564c71c8225f8ca12918c3fdb7660782ef9e62b6cd6359",
+    "selected_source_records.jsonl": "1a8e635f93d048b12162a2e4c26be56d5ca68a64e071e21e458b79291327618f",
+    "value_parser.py": "0dee81051ac7ad7225944ae34be51d14c169d4bcf7e8611f1155c57e10e48aa7",
+    "second_pass.json": "be5a2feec02c3dd10858af95908205a397a02173e8737187d6025632edcb459d"
+  }
+}

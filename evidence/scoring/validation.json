@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "new_affected_records": 624,
+  "new_exact_question_texts": 588,
+  "prior_record_overlap": 0,
+  "all_source_record_hashes_verified": 624,
+  "evidence_hashes_verified": 8,
+  "issue_counts": {
+    "identical_keyed_content": 427,
+    "missing_numeric_choices": 60,
+    "missing_requested_pair": 63,
+    "wrong_key_or_missing_option": 17,
+    "equivalent_keyed_value": 57
+  },
+  "illustrative_letter_scoring_controls": 427,
+  "numeric_parser_controls": 6,
+  "cumulative_affected_records": 1027,
+  "limit": "Key-equivalent collisions are confirmed structural conflicts with the one-correct-option contract; actual answer correctness and model-score effects are not inferred for every collision."
+}

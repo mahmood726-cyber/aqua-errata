@@ -1,0 +1,17 @@
+{
+  "source_repository": "google-deepmind/AQuA",
+  "source_commit": "26b64ed1f22208c6742f47df547dfd65088ec30d",
+  "audit_date": "2026-10-28",
+  "affected_source_records": 978,
+  "category_counts": {
+    "rationale_arithmetic": 223,
+    "answer_key": 121,
+    "key_or_conclusion_conflict": 10,
+    "identical_keyed_content": 427,
+    "missing_numeric_choices": 60,
+    "missing_requested_pair": 63,
+    "wrong_key_or_missing_option": 17,
+    "equivalent_keyed_value": 57
+  },
+  "scope": "AQuA only; source records, not independent defects or author-approved corrections."
+}

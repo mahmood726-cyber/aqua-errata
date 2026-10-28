@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-28",
+  "repository": "google-deepmind/AQuA",
+  "commit": "26b64ed1f22208c6742f47df547dfd65088ec30d",
+  "sources": {
+    "train.json": {
+      "sha256": "35b70c7cb1660c34d302bb932dfd3656ce3d05e8c982c797767fec31d7d1e0ba",
+      "git_blob": "a805bddefde8d70fdb66ff7ab85a1999bdc3eece",
+      "bytes": 47570935
+    },
+    "dev.json": {
+      "sha256": "4a52301d8a49ae0b286f8e697f9c5da1b109b247b825b47b4c6de34312dceec5",
+      "git_blob": "cfed85490f72da6bb4d108e040c510d3e0b22d2a",
+      "bytes": 132008
+    },
+    "test.json": {
+      "sha256": "de41581881ef95c5588c44ddc701c77fd480839241dd422a0d181262af24520c",
+      "git_blob": "a62ef3e8bc0446de096c8384a0bf5c99867043b2",
+      "bytes": 130192
+    }
+  },
+  "source_records": {
+    "train": 97467,
+    "dev": 254,
+    "test": 254
+  },
+  "author_contact_source": "https://arxiv.org/pdf/1705.04146",
+  "published_addresses": [
+    "lingwang@google.com",
+    "cdyer@google.com"
+  ],
+  "accepted_records": 354,
+  "distinct_question_texts": 304,
+  "kind_counts": {
+    "rationale_arithmetic": 223,
+    "answer_key": 121,
+    "key_or_conclusion_conflict": 10
+  },
+  "sha256": {
+    "findings.json": "e22af838f574f27450bb99e7eb9130328bc85dcc489b7889a615a656f481b45e",
+    "LICENSE-source.txt": "189bff4f09eccdbc1790f7a9085ddd031ddf050f27929608fa4ba8a57e14a7c3",
+    "question_rules.py": "2f3f8e6f2a14060fff24e20d544371f5176df5264c9f2572067775777abb799e",
+    "review_exclusions.json": "350a15a23e6bf36388b872ee2a47cc054c9de65b44294708f6c7f47c8341b4e6",
+    "selected_source_records.jsonl": "3dd3738b5ebae6e3fbc40b21ba7f830198a16cfe7dd5b37c6d497d55a48f7eb9",
+    "reproduce.py": "bd04640b72d5bfbb9bed7eab69a8043b4c088bd5c01b76e547ab1b402e7a223f"
+  }
+}
